@@ -1,0 +1,115 @@
+body {
+    padding-top: 70px; /* Space for fixed navbar */
+    background-color: #2c3e50; /* Dark gray background */
+    font-family: 'Poppins', sans-serif;
+    color: #ecf0f1; /* Light text for contrast */
+}
+
+.navbar-custom {
+    background-color: #8e44ad; /* Dark purple/navy */
+    border-color: #732d91; /* Slightly darker purple/navy */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav > li > a {
+    color: white;
+}
+
+.hero {
+    background: linear-gradient(to right, #8e44ad, #c0392b); /* Gradient with dark red/purple tones */
+    color: white;
+    padding: 120px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Darker shadow for effect */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.profile-name {
+    color: #c0392b; /* Dark red for emphasis */
+}
+
+.section {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #34495e; /* Darker gray for section backgrounds */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.thumbnail {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.upload-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.upload-section input {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #8e44ad; /* Matching navbar color */
+    color: white;
+    padding: 20px 0;
+}
+
+.table {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #34495e; /* Dark gray for table */
+}
+
+.table-bordered {
+    border: 1px solid #e1e1e1; /* Keeps outer border */
+}
+
+.table th, .table td {
+    border: none; /* Removes inner borders */
+}
+
+.table-dark {
+    background-color: #2c3e50;
+    color: white;
+}
+
+#certificates .thumbnail {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    margin-bottom: 30px;
+}
+
+#certificates .thumbnail:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#certificates .caption h4 {
+    font-weight: bold;
+    color: #8e44ad; /* Match the purple theme */
+}
+
+#certificates .caption p {
+    font-size: 1rem;
+    color: #34495e; /* Darker text for description */
+}
